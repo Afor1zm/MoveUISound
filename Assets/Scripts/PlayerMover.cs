@@ -52,7 +52,15 @@ public class PlayerMover : MonoBehaviour
     {
         if (_isCanMove)
         {
-            var ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+            Ray ray;
+            if (Touchscreen.current != null)
+            {
+                ray = Camera.main.ScreenPointToRay(Touchscreen.current.position.ReadValue());
+            }
+            else
+            {
+                ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+            }            
             if (Physics.Raycast(ray.origin, ray.direction, out _hitInfo))
             {                
                 if (_hitInfo.collider.gameObject.TryGetComponent<Interactable>(out Interactable interactable))
@@ -65,5 +73,10 @@ public class PlayerMover : MonoBehaviour
                 _playerAnimator.SetBool("IsIdle", false);
             }
         }        
-    }    
+    }
+
+    private void Move()
+    {
+        
+    }
 }

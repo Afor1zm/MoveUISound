@@ -1,0 +1,8 @@
+C:/PROTOTYPES/MoveUISound/.utmp/RelWithDebInfo/1e41hg6m/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/PROTOTYPES/MoveUISound/.utmp/RelWithDebInfo/1e41hg6m/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/PROTOTYPES/MoveUISound/.utmp/RelWithDebInfo/1e41hg6m/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/PROTOTYPES/MoveUISound/.utmp/RelWithDebInfo/1e41hg6m/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/PROTOTYPES/MoveUISound/.utmp/RelWithDebInfo/1e41hg6m/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+C:/PROTOTYPES/MoveUISound/.utmp/RelWithDebInfo/1e41hg6m/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/PROTOTYPES/MoveUISound/.utmp/RelWithDebInfo/1e41hg6m/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/PROTOTYPES/MoveUISound/.utmp/RelWithDebInfo/1e41hg6m/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
